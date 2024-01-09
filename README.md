@@ -4,14 +4,15 @@
 - User Authentication
 - Profile Management
 - Job Posting
-- Communication Channel
+- Communication Channel (between freelancer and client)
 
 ### Choose Tech Stack
-- Backend: Java (SpringBoot) and MySQL or MongoDB for database
-- Frontend: React
+- Backend: Java (SpringBoot) or Python (Flask or Django)
+- Frontend: React JS
+- Database: MySQL, PostgreSQL or SQLite 
 
----
---- 
+## Sample Sketch
+TODO
 
 ## Set Up the Backend
 
@@ -21,19 +22,16 @@
 
 - Database Setup
     - Create a basic database scheme to store user profiles, job details, and other relevant info.
+        - User Table
+            - Fields for user details such as username, email, password (hashed), etc.
+            - Additional fields for freelancer profiles, such as skills, expertise, etc.
+        - Job Table
+            - Fields for job details like title, description, budget, and client information.
     
 - API Development
     - Build APIs for user registration, login, profile management, and job posting.
 
-## Design the Database Schema
-
-- User Table
-    - Fields for user details such as username, email, password (hashed), etc.
-    - Additional fields for freelancer profiles, such as skills, expertise, etc.
-- Job Table
-    - Fields for job details like title, description, budget, and client information.
-
-## Build Response Frontend
+## Build Responsive Frontend
 
 - UI Components
     - Create UI components for user registration, login, profile mangement, and job posting.
