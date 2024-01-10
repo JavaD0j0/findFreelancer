@@ -10,6 +10,7 @@
 - Backend: Java (SpringBoot) or Python (Flask or Django)
 - Frontend: React JS
 - Database: MySQL, PostgreSQL or SQLite 
+- API: Axios
 
 ## Sample Sketch
 TODO
